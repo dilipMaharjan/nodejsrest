@@ -10,7 +10,7 @@ var db=mongoose.connection;
 
 //rest
 app.get('/',function(req,res){
-  res.send('hello');
+  res.send('Please use /api/books or /api/genre');
 });
 app.listen(3000);
 console.log("App State","Started");
